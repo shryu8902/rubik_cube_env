@@ -1,6 +1,6 @@
 #%%
 import gymnasium as gym
-from envs.rubikscube333 import RubiksCubeEnv
+from rubik_envs.rubikscube333 import RubiksCubeEnv
 import matplotlib.pyplot as plt
 
 #%%
@@ -44,3 +44,4 @@ while True:
         observation = env.reset(l_scramble=10)
 
 env.close()
+
