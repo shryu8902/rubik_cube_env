@@ -11,12 +11,13 @@ This environment follows the **Gymnasium** interface.
 - Support for both 2D/array-based observation
 ---
 
-## 🚀 Installation
+## 🚀 Example
 
 Clone the repository:
 ```bash
 git clone https://github.com/shryu8902/rubik_cube_env.git
 cd rubik_cube_env
+python 2_test_human.py
 ```
 ## Requirements:
 
@@ -53,7 +54,7 @@ cd rubik_cube_env
 
   Maximum number of steps (300) reached
 
-## Example
+## Running Example
 
 ```python
 from rubik_envs.rubikscube333 import RubiksCubeEnv
