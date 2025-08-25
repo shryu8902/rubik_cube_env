@@ -1,6 +1,6 @@
 #%%
 import gymnasium as gym
-from envs.rubikscube333 import RubiksCubeEnv
+from rubik_envs.rubikscube333 import RubiksCubeEnv
 import matplotlib.pyplot as plt
 #%%
 env = RubiksCubeEnv(render_mode='rgb_array')
@@ -14,3 +14,4 @@ for _ in range(10):
         obs, info= env.reset(l_scramble=10)
 
 env.close()
+
