@@ -1,1 +1,2 @@
-from rubik_env.rubikscube333 import RubiksCubeEnv
+from rubik_envs.rubikscube333 import RubiksCubeEnv
+
