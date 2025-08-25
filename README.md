@@ -13,11 +13,10 @@ This environment follows the **Gymnasium** interface.
 
 ## 🚀 Installation
 
-Clone the repository and install dependencies:
+Clone the repository:
 ```bash
 git clone https://github.com/shryu8902/rubik_cube_env.git
 cd rubik_cube_env
-pip install -e .
 ```
 ## Requirements:
 
