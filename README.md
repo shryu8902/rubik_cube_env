@@ -74,3 +74,8 @@ for _ in range(10):
 
 env.close()
 ```
+
+## Acknowledgement
+
+This research was supported by the IITP (Institute of Information & Communications Technology Planning & Evaluation) - ICAN (ICT Challenge and Advanced
+Network of HRD) grant funded by the Korea government (Ministry of Science and ICT) (IITP-2025-RS-2024-00436528).
